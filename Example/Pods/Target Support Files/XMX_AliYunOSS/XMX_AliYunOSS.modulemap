@@ -1,0 +1,6 @@
+framework module XMX_AliYunOSS {
+  umbrella header "XMX_AliYunOSS-umbrella.h"
+
+  export *
+  module * { export * }
+}

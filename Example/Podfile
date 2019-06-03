@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XMX_AliYunOSS_Example' do
+  pod 'XMX_AliYunOSS', :path => '../'
+  pod 'AliyunOSSiOS'
+  target 'XMX_AliYunOSS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

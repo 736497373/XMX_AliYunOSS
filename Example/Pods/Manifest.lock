@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.10.7)
+  - XMX_AliYunOSS (0.1.0):
+    - AFNetworking
+    - AliyunOSSiOS
+
+DEPENDENCIES:
+  - AliyunOSSiOS
+  - XMX_AliYunOSS (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+
+EXTERNAL SOURCES:
+  XMX_AliYunOSS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliyunOSSiOS: 602b6a4e70e62a5f0a6431c20496343141d7e66f
+  XMX_AliYunOSS: f30ad471965c1c956fea5be1d2d2d4fef09b6975
+
+PODFILE CHECKSUM: c602764000d5313cb6c98bd68227c6be755a1a8b
+
+COCOAPODS: 1.7.0.beta.3
