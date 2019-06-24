@@ -11,6 +11,7 @@
 @implementation DefaultCompressionStrategy
 
 -(NSData *)compressionStrategyPercentWithImage:(UIImage *)image{
-    return nil;
+    NSData *result = UIImageJPEGRepresentation(image, 1.0);
+    return result;
 }
 @end
